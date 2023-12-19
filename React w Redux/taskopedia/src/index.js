@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+//note always the component name must be starting with uppercase
 function MainBody()
 {
   return(
