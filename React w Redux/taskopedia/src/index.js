@@ -17,6 +17,37 @@ function MainBody()
   );
 }
 
+//assignment - display parent child component
+function Header()
+{
+  return (<div>
+     <MainHeader></MainHeader>
+     <SubHeader></SubHeader>
+      </div>)
+}
+
+//assignment - create a main header - parent comp
+function MainHeader()
+{
+  return(
+    <h1>Welcome to Ramya's React Course</h1>
+  );
+}
+
+//assignment - create a sub header - child comp
+function SubHeader()
+{
+  return <p>This will be an exciting course.</p>
+}
+
+//assignment - create a footer
+function Footer()
+{
+  return(
+    <p>Happy Coding!</p>
+  );
+}
+
 //you can render like below
 //root.render(MainBody());
 
@@ -26,8 +57,8 @@ function MainBody()
 //or something like below
 root.render(
   <div>
+    <Header />
     <MainBody />
-    <MainBody />
-    <MainBody />
+    <Footer />
   </div>
 )
