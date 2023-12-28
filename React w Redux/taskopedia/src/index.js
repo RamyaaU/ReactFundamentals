@@ -7,12 +7,21 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //note always the component name must be starting with uppercase
 function MainBody()
 {
+  const whatWeWillLearn = "React JS";
+  const lectureCount = 3;
+  //other ways of init variables
+  //var whatWeWillLearn = "React JS";
+  //let whatWeWillLearn = "React JS";
+
   return(
   <div>
-      <p>Ramya, you are the best!</p>
+      <p>In this course, we will learn {whatWeWillLearn} by building TaskOPedia!
+      <br />
+      Total Lecture - {lectureCount}
+      </p>
       <ul>
-        <li>Ramya</li>
-        <li>is the prettiesttttt</li>
+        <li>Basic foundation</li>
+        <li>Functional and class components</li>
       </ul>
     </div>
   );
