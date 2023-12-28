@@ -30,7 +30,7 @@ function Header()
 function MainHeader()
 {
   return(
-    <h1>Welcome to Ramya's React Course</h1>
+    <h1 className="text-primary">Welcome to Ramya's React Course</h1>
   );
 }
 
