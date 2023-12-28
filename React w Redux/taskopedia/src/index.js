@@ -34,17 +34,25 @@ function MainHeader()
   );
 }
 
+//or using props styling can be done
+const subHeaderStyle = {
+  color : "blueviolet",
+  backgroundColor : "lightgray",
+}
+
 //assignment - create a sub header - child comp
 function SubHeader()
 {
-  return <p>This will be an exciting course.</p>
+  //and can be called like the below
+  return <p style={subHeaderStyle}>This will be an exciting course.</p>
 }
 
 //assignment - create a footer
 function Footer()
 {
   return(
-    <p>Happy Coding!</p>
+    //style the footer directly through inline style
+    <p style={{color : "gray", backgroundColor: "black"}}>Happy Coding!</p>
   );
 }
 
