@@ -15,10 +15,9 @@ function MainBody()
 
   return(
   <div>
-      <p>In this course, we will learn {whatWeWillLearn} by building TaskOPedia!
+      <p>In this course, we will learn {whatWeWillLearn} by building TaskOPedia!</p>
       <br />
-      Total Lecture - {lectureCount}
-      </p>
+      Total Lecture - 
       <ul>
         <li>Basic foundation</li>
         <li>Functional and class components</li>
